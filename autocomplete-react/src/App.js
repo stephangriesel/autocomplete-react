@@ -1,12 +1,14 @@
-import React, { Component } from 'react';
-import './App.css';
-import { AutoCompleteText } from './component/AutoCompleteText';
+import React, { Component } from "react";
+import "./App.css";
+import { AutoCompleteText } from "./component/AutoCompleteText";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <AutoCompleteText />
+        <div className="App-Component">
+          <AutoCompleteText />
+        </div>
       </div>
     );
   }
