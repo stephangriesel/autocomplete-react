@@ -26,7 +26,7 @@ export class AutoCompleteText extends React.Component {
     }
     return (
       <ul>
-        {this.items.map(item => (
+        {suggestions.map(item => (
           <li>{item}</li>
         ))}
       </ul>
